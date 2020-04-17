@@ -13,7 +13,7 @@
 
 ### Как запустить:
 1. Скачиваем репозиторий и импортируем проект в IntelliJ IDEA. Maven автоматически загрузит все зависимости;
-2. Скачиваем и устанавливаем [Ganache](https://www.trufflesuite.com/ganache;
+2. Скачиваем и устанавливаем [Ganache](https://www.trufflesuite.com/ganache);
 3. Запускаем сервер [Ganache](https://www.trufflesuite.com/ganache) по адресу HTTP://127.0.0.1:7545;
 4. Запускаем приложение;
 5. Вводим приватный ключ.
