@@ -1,17 +1,24 @@
 # Ethereum Voting App
-Простая система голосования на основе блокчейна Ethereum, в которой владелец контракта может давать права голоса избирателям. 
-Избиратели могут голосовать только один раз.
----
-### Запуск:
-#### Требования:
-java 8, maven, Ganache.
+[![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
----
-### Изменение и сборка:
-#### Требования:
-java 8, maven, Ganache, [web3j-cli](https://github.com/web3j/web3j-cli), [solc](https://solidity.readthedocs.io/en/develop/installing-solidity.html).
+Простая система голосования с использованием Ethereum и Java.
 
-#### Сборка проекта:
+## Запуск и сборка:
+### Необходимые библиотеки:
+1. [Web3j](https://github.com/web3j/web3j/releases)
+2. [web3j-cli](https://github.com/web3j/web3j-cli)
+3. [Ganache](https://www.trufflesuite.com/ganache)
+4. [solc](https://github.com/ethereum/solidity/releases)
 
-Если код контракта был изменён, то Java шаблон должен быть сгенерирован заново.
+### Как запустить:
+1. Скачиваем репозиторий и импортируем проект в IntelliJ IDEA. Maven автоматически загрузит все зависимости;
+2. Скачиваем и устанавливаем [Ganache](https://www.trufflesuite.com/ganache;
+3. Запускаем сервер [Ganache](https://www.trufflesuite.com/ganache) по адресу HTTP://127.0.0.1:7545;
+4. Запускаем приложение;
+5. Вводим приватный ключ.
+
+#### Примечания
+Если код контракта был изменён, то Java шаблон должен быть [сгенерирован](https://kauri.io/generate-a-java-wrapper-from-your-smart-contract/84475132317d4d6a84a2c42eb9348e4b/a) заново.
+
 
