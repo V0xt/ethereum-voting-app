@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ethereumvotingapp.controllers.LoginController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="490.0" spacing="50.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label text="Введите ваш приватный ключ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="pKeyField" maxWidth="430.0" prefHeight="25.0" prefWidth="453.0" />
+            <Button fx:id="loginButton" mnemonicParsing="false" onAction="#accessAccount" text="Войти" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
