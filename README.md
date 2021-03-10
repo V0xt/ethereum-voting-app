@@ -1,4 +1,5 @@
 # Ethereum Voting App
+[![Maintainability](https://api.codeclimate.com/v1/badges/aab6fef4f402f9bb29f6/maintainability)](https://codeclimate.com/github/v0xat/ethereum-voting-app/maintainability)
 [![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
